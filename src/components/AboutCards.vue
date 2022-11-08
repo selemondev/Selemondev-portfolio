@@ -27,7 +27,7 @@ const stories = [
 
 <template>
     <div class="flex justify-center items-center flex-wrap md:flex-center md:flex-nowrap">
-        <div v-for="story in stories" :key="story.id" class="w-72 h-80 bg-[#F9F9F9] dark:bg-[#242424] m-2 md:h-[430px] lg:h-96">
+        <div v-for="story in stories" :key="story.id" class="w-72 h-80 bg-[#F9F9F9] dark:bg-[#242424] rounded-md m-2 md:h-[430px] lg:h-96">
             <div class="p-3 space-y-2 md:space-y-4 md:p-4">
                 <div class="h-12 w-12 rounded-md grid-layout bg-[#E5E5E5] dark:bg-[#313131]">
                     <Icon :icon="story.icon" class="text-4xl" />

@@ -47,7 +47,7 @@ const services = [
 
 <template>
     <div class="flex justify-center items-center flex-wrap md:flex-center">
-        <div v-for="service in services" :key="service.id" class="w-72 h-72 bg-[#F9F9F9] dark:bg-[#242424] m-2 md:w-80 md:h-72">
+        <div v-for="service in services" :key="service.id" class="w-72 h-72 bg-[#F9F9F9] dark:bg-[#242424] rounded-md m-2 md:w-80 md:h-72">
             <div class="p-4 space-y-2 md:space-y-4">
                 <div data-aos="fade-up" data-aos-duration="1000" class="h-12 w-12 rounded-md grid-layout bg-[#E5E5E5] dark:bg-[#313131]">
                     <Icon :icon="service.icon" class="text-4xl text-purple-500" />

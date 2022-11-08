@@ -58,7 +58,7 @@ const projects = [
 </script>
 <template>
     <div id="projectCards" class="flex justify-center items-center flex-wrap md:flex-center">
-        <div v-for="project in projects" :key="project.id" class="dark:bg-[#242424] bg-[#F9F9F9] m-2 w-72 h-[340px] md:h-[335px] md:w-80">
+        <div v-for="project in projects" :key="project.id" class="dark:bg-[#242424] bg-[#F9F9F9] rounded-md m-2 w-72 h-[340px] md:h-[335px] md:w-80">
             <div class="grid-layout mt-6">
                 <Icon :icon="project.icon" class="text-6xl" />
             </div>
