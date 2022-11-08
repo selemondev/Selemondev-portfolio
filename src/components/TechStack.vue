@@ -84,7 +84,7 @@ const tools = [
     <div class="grid-layout w-full max-h-48 space-y-4 py-4 mt-20 md:py-6 md:max-h-64 md:mt-28 md:space-y-6 2xl:px-80">
         <div class="md:mb-6">
             <h1 data-aos="fade-up" data-aos-duration="1000" class="text-4xl dark:text-white md:text-5xl">My <span
-                    class="bg-gradient-to-r bg-clip-text from-purple-500 via-sky-400 to-purple-800 text-transparent background-animate">techStack</span>
+                    class="bg-gradient-to-r bg-clip-text from-purple-500 via-sky-400 to-purple-800 dark:from-purple-400 dark:via-sky-300 dark:to-purple-600 text-transparent background-animate">techStack</span>
             </h1>
         </div>
         <div class="content w-72 pt-6 overflow-hidden relative md:pt-2 md:w-[800px]">
