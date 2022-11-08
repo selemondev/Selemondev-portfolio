@@ -3,7 +3,7 @@
         <p
             class="dark:text-white font-Inter leading-6 font-extrabold text-center text-lg max-w-sm tracking-wide md:text-4xl md:max-w-3xl md:leading-[50px]">
             Focus on running your <span
-                class="bg-gradient-to-r bg-clip-text from-purple-500 via-sky-400 to-purple-800 text-transparent background-animate">business</span>,
+                class="bg-gradient-to-r bg-clip-text from-purple-500 via-sky-400 to-purple-800 dark:from-purple-400 dark:via-sky-300 dark:to-purple-600 text-transparent background-animate">business</span>,
             while I focus on <span
                 class="bg-gradient-to-r bg-clip-text from-purple-500 via-sky-400 to-purple-800 text-transparent background-animate">growing</span>
             your business</p>
