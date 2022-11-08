@@ -45,7 +45,7 @@ const contacts = [
 <template>
     <div class="flex justify-center items-center flex-wrap md:flex-center">
         <div v-for="contact in contacts" :key="contact.id"
-            class="w-72 h-52 bg-[#F9F9F9] dark:bg-[#242424] m-2 md:w-80 md:h-52">
+            class="w-72 h-52 bg-[#F9F9F9] dark:bg-[#242424] rounded-md m-2 md:w-80 md:h-52">
             <a :href="contact.link" target="_blank">
                 <div class="p-3 space-y-2 md:space-y-4 md:p-4">
                     <div data-aos="fade-up" data-aos-duration="1500" class="h-12 w-12 rounded-md grid-layout bg-[#E5E5E5] dark:bg-[#313131]">
