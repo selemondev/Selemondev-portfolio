@@ -8,13 +8,15 @@ import Procedures from '../components/Procedures.vue';
 import Contact from '../components/Contact.vue';
 </script>
 <template>
-    <div class="components-container">
+    <div>
         <Hero />
         <About />
-        <TechStack />
-        <Projects />
-        <Services />
-        <Procedures />
-        <Contact />
+        <div class="components-container">
+            <TechStack />
+            <Projects />
+            <Services />
+            <Procedures />
+            <Contact />
+        </div>
     </div>
 </template>
