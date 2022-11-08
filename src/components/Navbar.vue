@@ -12,7 +12,7 @@ const navLinks = [
     {
         id: 1,
         link: "Home",
-        to: "#home"
+        to: "#nav"
     },
     {
         id: 2,
@@ -69,7 +69,7 @@ const socialLinks = [
 <template>
     <div>
         <header>
-            <nav
+            <nav id="nav"
                 class="w-full h-14 px-4 flex-between bg-white/80 border-b border-gray-100 dark:border-b dark:border-[#1C1E20] dark:bg-[#0E1012]/80 2xl:px-48">
                 <div class="flex-center space-x-1">
                     <Icon icon="mdi:fire" class="text-purple-500 text-2xl lg:text-3xl" />
