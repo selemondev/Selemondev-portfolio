@@ -82,7 +82,7 @@ const socialLinks = [
                         <ul class="inline-flex p-3" v-for="link in navLinks" :key="link.id">
                             <a :href="link.to" v-smooth-scroll="{ duration: 1500 }">
                                 <li data-aos="fade-left" data-aos-duration="1300"
-                                    class="font-semibold transition-delay-timer text-sm cursor-pointer text-[#33373D] dark:font-normal dark:text-gray-400 dark:hover:text-gray-100">
+                                    class="transition-delay-timer text-sm cursor-pointer font-semibold text-[#33373D] hover:text-purple-600 dark:font-normal dark:text-gray-400 dark:hover:text-gray-100">
                                     {{ link.link }}</li>
                             </a>
                         </ul>
