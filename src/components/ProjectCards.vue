@@ -50,7 +50,7 @@ const projects = [
         id: 6,
         icon: "fxemoji:bolt",
         name: "Selemon Portfolio",
-        description: "My awesome portfolio site created with Vue 3, Animate On Scroll and Vue3-Smooth-Scroll.",
+        description: "My awesome portfolio site created with Vue 3, Vueuse, Animate On Scroll and Vue3-Smooth-Scroll.",
         tools: ["logos:vue", "logos:vueuse"],
         link: "https://selemon-dev-portfolio.vercel.app"
     }
