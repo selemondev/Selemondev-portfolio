@@ -10,7 +10,7 @@ const stories = [
 
     {
         id: 2,
-        title: "How can I help",
+        title: "How can I help?",
         icon: "icon-park:trend",
         story: "I help to modernize and innovate businesses by tackling complex technological challenges. I have the technical know-how and knowledge to provide your business with the full spectrum of web services such as Hosting, SEO, Web Development, Testing, Technical Writing and UI / UX design."
     },
