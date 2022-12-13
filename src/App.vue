@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Navbar from './components/Navbar.vue';
-import Footer from './components/Footer.vue';
 import { onMounted } from 'vue';
 import AOS from "aos";
 onMounted(() => {
@@ -11,6 +10,5 @@ onMounted(() => {
   <div>
     <Navbar/>
     <router-view/>
-    <Footer/>
   </div>
 </template>
