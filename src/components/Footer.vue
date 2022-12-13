@@ -7,7 +7,7 @@ const date = new Date().getFullYear();
             <h1 class="dark:text-white text-sm md:text-lg">Created by <span class="bg-gradient-to-r bg-clip-text from-purple-500 via-sky-400 to-purple-800 text-transparent background-animate">Selemon Brahanu</span> ✨. All rights reserved @ {{ date }}</h1>
         </div>
 
-        <div>
+        <div class="5xl:hidden">
             <span class="w-full flex h-0.5  bg-gradient-to-r from-purple-500 via-sky-500 to-purple-800 background-animate"></span>
         </div>
     </div>

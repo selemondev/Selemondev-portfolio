@@ -6,6 +6,7 @@ import Projects from '../components/Projects.vue';
 import Services from '../components/Services.vue';
 import Procedures from '../components/Procedures.vue';
 import Contact from '../components/Contact.vue';
+import Footer from '../components/Footer.vue';
 </script>
 <template>
     <div>
@@ -17,6 +18,7 @@ import Contact from '../components/Contact.vue';
             <Services />
             <Procedures />
             <Contact />
+            <Footer />
         </div>
     </div>
 </template>
