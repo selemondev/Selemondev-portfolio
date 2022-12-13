@@ -72,7 +72,7 @@ const socialLinks = [
             <nav id="nav"
                 class="w-full h-14 px-4 flex-between bg-white/80 border-b border-gray-100 dark:border-b dark:border-[#1C1E20] dark:bg-[#0E1012]/80 2xl:px-48">
                 <div class="flex-center space-x-1">
-                    <Icon icon="mdi:fire" class="text-purple-500 text-2xl lg:text-3xl" />
+                    <Icon icon="heroicons-outline:bolt" class="text-purple-500 text-2xl lg:text-3xl" />
                     <h1 data-aos="fade-left" class="text-base font-bold dark:font-normal dark:text-white lg:text-xl">
                         Selemondev</h1>
                 </div>
@@ -124,7 +124,7 @@ const socialLinks = [
 
                         <div class="flex-between pt-4">
                             <div class="flex-center space-x-1">
-                                <Icon icon="mdi:fire" class="text-purple-500 text-2xl lg:text-3xl" />
+                                <Icon icon="heroicons-outline:bolt" class="text-purple-500 text-2xl lg:text-3xl" />
                                 <h1 class="text-base dark:text-white lg:text-xl">
                                     Selemondev</h1>
                             </div>
